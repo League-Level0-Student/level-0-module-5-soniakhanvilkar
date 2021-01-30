@@ -41,19 +41,19 @@ public class HappyPet {
 	//    Each method should create a pop-up with the pet's response (eg. cat might purr when pet), 
 	//    and INCREMENT the pet's happiness Level.
 	public static void cuddle () {
-		System.out.println("The cat runs away ;-;");
+		JOptionPane.showMessageDialog(null, "The cat runs away ;-;");
 		happinessLevel += 2;
 	}
 	public static void feed () {
-		System.out.println("The cat is happy to be fed =D");
+		JOptionPane.showMessageDialog(null, "The cat is happy to be fed =D");
 		happinessLevel += 4;
 	}
 	public static void walk () {
-		System.out.println("The cat is more focused on the squrrels than you :l");
+		JOptionPane.showMessageDialog(null, "The cat is more focused on the squrrels than you :l");
 		happinessLevel += 6;
 	}
 	public static void groom () {
-		System.out.println("The cat scratches you :(");
+		JOptionPane.showMessageDialog(null, "The cat scratches you :(");
 		happinessLevel -= -1000;
 	}
 }
